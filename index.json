@@ -1,0 +1,16 @@
+{
+  "recipes": {
+    "fschmid-dev/sso-service-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "_links": {
+      "repository": "github.com/fschmid-dev/sso-service-recipe",
+      "origin_template": "{package}:{version}@github.com/fschmid-dev/sso-service-recipe:main",
+      "recipe_template": "https://api.github.com/repos/fschmid-dev/sso-service-recipe/contents/{package_dotted}.{version}.json"
+    }
+  }
+}

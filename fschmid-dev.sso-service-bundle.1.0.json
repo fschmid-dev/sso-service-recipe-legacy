@@ -1,0 +1,26 @@
+{
+  "manifests": {
+    "fschmid-dev/sso-service-bundle": {
+      "manifest": {
+        "bundles": {
+          "FSchmidDev\\RedirectExceptionBundle\\FSchmidDevRedirectExceptionBundle": ["all"],
+          "FSchmidDev\\SSOServiceBundle\\FSchmidDevSSOServiceBundle": ["all"]
+        }
+      },
+      "files": {
+        "config/packages/fschmid_dev_sso_service.yaml": {
+          "contents": [
+            "fschmid_dev_sso_service:",
+            "    cookies:",
+            "        shared_cookie_domain: YOUR_SHARED_COOKIE_DOMAIN (.example.wip)",
+            "    user_provider:",
+            "        url: 'https://user.example.wip/user-profile'",
+            "        user: App\\Entity\\User",
+            "    logout: app_logout"
+          ]
+        }
+      },
+      "ref": "c4732129b3c441448d84bf668acb6fbd146a5941"
+    }
+  }
+}
