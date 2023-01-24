@@ -17,7 +17,8 @@
             "        url: 'https://user.example.wip/user-profile'",
             "        user: App\\Entity\\User",
             "    logout: app_logout"
-          ]
+          ],
+          "executable": false
         }
       },
       "ref": "c4732129b3c441448d84bf668acb6fbd146a5941"
