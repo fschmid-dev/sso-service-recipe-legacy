@@ -56,7 +56,8 @@
             "fschmid_dev_sso_service:",
             "  resource: '@FSchmidDevSSOServiceBundle/config/routes.yaml'",
             ""
-          ]
+          ],
+          "executable": false
         }
       },
       "ref": "bd9fc2513a55ebdce2279737c6ae7299684c40c4"
