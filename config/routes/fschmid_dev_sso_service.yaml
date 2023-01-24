@@ -1,0 +1,2 @@
+fschmid_dev_sso_service:
+  resource: '@FSchmidDevSSOServiceBundle/config/routes.yaml'
