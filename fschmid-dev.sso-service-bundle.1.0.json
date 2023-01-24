@@ -25,7 +25,7 @@
           "       app_entity_provider:",
           "         entity:",
           "           class: App\\Entity\\User",
-          "             property: username",
+          "           property: username",
           "",
           "       app_jwt_provider:",
           "         id: fschmid_dev_sso_service.security.jwt.user_provider",
