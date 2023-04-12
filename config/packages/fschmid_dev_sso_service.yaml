@@ -1,7 +1,10 @@
 fschmid_dev_sso_service:
   cookies:
-    shared_cookie_domain: YOUR_SHARED_COOKIE_DOMAIN (.example.wip)
+    shared_cookie_domain: '%env(FSCHMID_SHARED_COOKIE_DOMAIN)%'
   user_provider:
-    url: 'https://user.example.wip/user-profile'
+    url: '%env(FSCHMID_USER_PROVIDER_URL)%'
     user: App\\Entity\\User
-  logout: app_logout
+  routes:
+    login_success: app_home
+    login_failure: app_home
+    logout: app_logout
